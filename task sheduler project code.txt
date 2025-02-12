@@ -32,7 +32,7 @@ struct PriorityQueue* createPriorityQueue() {
     return pq;
 }
 
-// Function to enqueue a task in the priority queue
+// Function to enqueue a task in the priority queee
 void enqueue(struct PriorityQueue* pq, struct Task* task) {
     if (pq->front == NULL || task->priority > pq->front->priority) {
         task->next = pq->front;
